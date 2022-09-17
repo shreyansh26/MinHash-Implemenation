@@ -1,6 +1,7 @@
 # MinHash Implementation
 
-A simple MinHash implementation to identify similar documents based on keywords. A good explanation can be found in the Mining of Massive Datasets course by Stanford. [Chapter 3 till Section 3.3](http://infolab.stanford.edu/~ullman/mmds/ch3.pdf) covers MinHashing and all the concepts required to understand the code.
+A simple MinHash ([original paper link](https://web.archive.org/web/20150131043133/http://gatekeeper.dec.com/ftp/pub/dec/SRC/publications/broder/positano-final-wpnums.pdf)) implementation to identify similar documents based on keywords. A good explanation can be found in the Mining of Massive Datasets course by Stanford. [Chapter 3 till Section 3.3](http://infolab.stanford.edu/~ullman/mmds/ch3.pdf) covers MinHashing and all the concepts required to understand the code.
+
 
 For large number of documents (10000) in this case, MinHashing is correctly able to identify all 80 pairs of plagiarized documents correctly.
 
